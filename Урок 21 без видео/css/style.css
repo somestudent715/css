@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Nestle Text Italic";
+  font-weight: 400;
+  font-style: italic;
+  src: local("Nestle Text Italic" ),
+        local("NestleTest-Italic"),
+    url("../fonts/NestleText-Italic.woff2") format("woff2"),
+    url("../fonts/NestleText-Italic.woff") format("woff"),
+    url("../fonts/NestleText-Italic.eot") format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Nestle Text Light";
+  font-weight: 200;
+  font-style: light;
+  src: local("Nestle Text Light" ),
+        local("NestleTest-Light"),
+    url("../fonts/NestleText-Light.woff2") format("woff2"),
+    url("../fonts/NestleText-Light.woff") format("woff"),
+    url("../fonts/NestleText-Light.eot") format("eot");
+  font-display: swap;
+}
+
+.parent {
+  font-family: "Nestle Text Light" ;
+}

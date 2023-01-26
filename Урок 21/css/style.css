@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "HYK Head Line Std Medium Alphabetic";
+  font-weight: 500;
+  font-style: normal;
+  src: local("HYK Head Line Std Medium Alphabetic"),
+    local("HYKHeadLineStd-Medium-Alphabetic"),
+    url("../fonts/HYKHeadLineStd-Medium-Alphabetic.woff2") format("woff2"),
+    url("../fonts/HYKHeadLineStd-Medium-Alphabetic.woff") format("woff"),
+    url("../fonts/HYKHeadLineStd-Medium-Alphabetic.eot") format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: "HYK Head Line Std Bold Alphabetic";
+  font-weight: 700;
+  font-style: normal;
+  src: local("HYK Head Line Std Bold Alphabetic"),
+    local("HYKHeadLineStd-Bold-Alphabetic"),
+    url("../fonts/HYKHeadLineStd-Bold-Alphabetic.woff2") format("woff2"),
+    url("../fonts/HYKHeadLineStd-Bold-Alphabetic.woff") format("woff"),
+    url("../fonts/HYKHeadLineStd-Bold-Alphabetic.eot") format("eot");
+  font-display: swap;
+}
+
+
+
+/* .parent {
+  font-family: 'Unbounded', serif;
+  font-weight: 500;
+  font-style: italic;
+
+} */
+
+.parent {
+  font-family: "HYK Head Line Std Medium Alphabetic", sans-serif;
+font-weight: bold;
+}
