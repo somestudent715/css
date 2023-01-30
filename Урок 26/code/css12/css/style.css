@@ -1,0 +1,21 @@
+body {
+  padding: 200px;
+}
+.contanier{
+  border: 5px solid black;
+  width: 800px;
+  height: 300px;
+  border-radius: 20px;
+}
+.block:hover{
+  background-color: black;
+}
+.block{
+  width: 790px;
+  height: 290px;
+  /* transition-duration: 3s;
+  transition-delay: 2s; */
+  transition: background-color 3s 2s;
+}
+
+  
